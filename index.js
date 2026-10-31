@@ -42,6 +42,33 @@ app.command("/krimmit-catfact", async ({ ack, respond }) => {
   }
 });
 
+app.command("/krimmit-roll", async ({ command, ack, respond }) => {
+  await ack();
+
+  const args = command.text.trim().split(/\s+/);
+
+  let min = 1;
+  let max = 6;
+
+  if (command.text.trim() !== "") {
+    min = Number(args[0]);
+    max = Number(args[1]);
+
+    if (
+      args.length !== 2 ||
+      !Number.isInteger(min) ||
+      !Number.isInteger(max) ||
+      min >= max
+    ) {
+      await respond("Usage: /krimmit-roll [minimum] [maximum]");
+      return;
+    }
+  }
+
+  const result = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  await respond(`🎲 You rolled a ${result}!`);
+});
 
 (async () => {
   await app.start();
