@@ -7,3 +7,14 @@ There are 3 commands:
 2) krimmit-catfact: get a random cat fact
 3) krimmit-help: shows the list of commands
 4) krimmit-roll: rolls a dice. you can set minimum and maximum values if you wish by simply typing 2 consecutive numbers. For example: if you want between the ranges 1 to 10, you should roll "/krimmit-roll 1 10" 
+
+Krimmit was built using:
+Node.js
+JavaScript 
+Slack Bolt
+Socket Mode
+Axios
+dotenv
+
+<img width="1312" height="475" alt="Screenshot 2026-10-31 170540" src="https://github.com/user-attachments/assets/f767a45d-d07a-4005-b9ee-0867b8908be6" />
+krimmit in action
