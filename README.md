@@ -21,6 +21,8 @@ Krimmit runs on Hack club Nest 24/7 even when my local computer is off
 Stardance's guide on building a slack bot was super helpful and made this project possible. Here you can follow it and build your own: https://stardance.hackclub.com/missions/slack-bot/guide
 I couldn't have done it without the guide since this was my first software project.
 
+Making it felt quite intriguing, like entering commands into the terminal and it magically works, and after a few commands you have a working bot, like that feels crazy. My non-software brain feels quite astonished.
+
 Krimmit is intentionally a small project; cause well- my first time touching software.
 Future improvements can be made; more commands, customizable responses, auto texting etc etc.
 
