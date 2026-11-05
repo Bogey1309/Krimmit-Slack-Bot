@@ -2,7 +2,7 @@ This is my slack bot for stardance.
 
 It's called Krimmit. It is quite basic, and gives you random cat facts and rolls an RNG.
 
-There are 3 commands:
+There are 4 commands:
 1) krimmit-ping: checks bot latency
 2) krimmit-catfact: get a random cat fact
 3) krimmit-help: shows the list of commands
@@ -28,6 +28,8 @@ Future improvements can be made; more commands, customizable responses, auto tex
 
 <img width="1312" height="475" alt="Screenshot 2026-10-31 170540" src="https://github.com/user-attachments/assets/f767a45d-d07a-4005-b9ee-0867b8908be6" />
 krimmit in action
+<img width="1066" height="332" alt="image" src="https://github.com/user-attachments/assets/e3847269-50ec-41e6-abf7-66b9d397814f" />
+
 
 <img width="688" height="550" alt="image" src="https://github.com/user-attachments/assets/9b3fc4a6-70fa-4db5-aad5-288bc86dbe56" />
 image of code in vs code
